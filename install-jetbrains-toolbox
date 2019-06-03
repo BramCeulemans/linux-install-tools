@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+JQ=$(which jq)
+CURL=$(which curl)
+WGET=$(which wget)
+TAR=$(which tar)
+
+for COMMAND in "${JQ}" "${CURL}" "${WGET}" "${TAR}"; do
+    if [[ -z "${COMMAND}" ]]; then
+        echo "${COMMAND} not installed"
+        exit 1
+    fi
+done
+
+getRelease() {
+    ${CURL} -sSL 'https://data.services.jetbrains.com/products/releases?code=TBA&latest=true&type=release'
+}
+
+getDownloadLink() {
+    getRelease | ${JQ} -r '.TBA[0].downloads.linux.link'
+}
+
+TEMP_DIR=$(mktemp -d -q)
+TOOLBOX_TAR="${TEMP_DIR}/toolbox.tar.gz"
+${WGET} -q "$(getDownloadLink)" -O "${TOOLBOX_TAR}"
+tar -xf "${TOOLBOX_TAR}" -C "${TEMP_DIR}" --strip-components=1
+exec "${TEMP_DIR}/jetbrains-toolbox" &
