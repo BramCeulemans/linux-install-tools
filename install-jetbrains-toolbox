@@ -3,7 +3,7 @@
 WGET=$(which wget)
 TAR=$(which tar)
 
-for COMMAND in "${CURL}" "${WGET}" "${TAR}"; do
+for COMMAND in "${WGET}" "${TAR}"; do
     if [[ -z "${COMMAND}" ]]; then
         echo "${COMMAND} not installed"
         exit 1
