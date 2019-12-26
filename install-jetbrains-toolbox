@@ -10,7 +10,7 @@ for COMMAND in "${WGET}" "${TAR}"; do
     fi
 done
 
-LINK='https://data.services.jetbrains.com/products/download?code=TBA&latest=true&type=release'
+LINK='https://data.services.jetbrains.com/products/download?platform=linux&code=TBA'
 
 TEMP_DIR=$(mktemp -d -q)
 TOOLBOX_TAR="${TEMP_DIR}/toolbox.tar.gz"
