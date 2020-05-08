@@ -3,6 +3,7 @@
 ## Install commands
 
 - JetBrains Toolbox: `curl -sSL https://raw.githubusercontent.com/bramceulemans/linux-install-tools/master/install-jetbrains-toolbox | bash`
+- PHP: `curl -sSL https://raw.githubusercontent.com/bramceulemans/linux-install-tools/master/install-php | bash`
 - Composer: `curl -sSL https://raw.githubusercontent.com/bramceulemans/linux-install-tools/master/install-composer | bash`
 
 ## Dependencies
