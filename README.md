@@ -15,15 +15,15 @@ export PS1="\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[33m
 
 - JetBrains Toolbox: 
   ```
-  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/install-jetbrains-toolbox | bash
+  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-jetbrains-toolbox | bash
   ```
 - PHP: 
   ```
-  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/install-php | bash
+  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-php | bash
   ```
 - Composer: 
   ```
-  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/install-composer | bash
+  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-composer | bash
   ```
 
 ### Dependencies
