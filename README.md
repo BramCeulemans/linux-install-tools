@@ -1,36 +1,38 @@
-# Linux install tools
+# PC Setup
 
-## Windows Git Bash
+## Windows
+
+### Git Bash
 
 ```bash
+# $HOME/.bashrc
 export PS1="\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[33m\]\w\[\e[m\]\[\e[36m\]\`__git_ps1\`\[\e[m\] "
 ```
 
-## Install commands
+## Ubuntu
+
+### Install commands
 
 - JetBrains Toolbox: 
   ```
-  curl -sSL https://raw.githubusercontent.com/bramceulemans/linux-install-tools/master/install-jetbrains-toolbox | bash
+  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/install-jetbrains-toolbox | bash
   ```
 - PHP: 
   ```
-  curl -sSL https://raw.githubusercontent.com/bramceulemans/linux-install-tools/master/install-php | bash
+  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/install-php | bash
   ```
 - Composer: 
   ```
-  curl -sSL https://raw.githubusercontent.com/bramceulemans/linux-install-tools/master/install-composer | bash
+  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/install-composer | bash
   ```
 
-## Dependencies
+### Dependencies
 
-### JetBrains Toolbox
+#### JetBrains Toolbox
 
 This script automatically downloads the latest version of JetBrains Toolbox and installs it
 
 Requirements:
 
-- `bash`
-- `curl`
-- `jq`
 - `wget`
 - `tar`
