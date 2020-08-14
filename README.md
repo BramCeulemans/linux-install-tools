@@ -66,3 +66,13 @@ Requirements:
 
 - `wget`
 - `tar`
+
+## Arch Linux
+
+### Add `gnome-terminal` keybinding
+
+```bash
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name "'Gnome Terminal'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/command "'gnome-terminal'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding "'<Primary><Alt><T>'"
+
