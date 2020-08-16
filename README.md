@@ -43,7 +43,7 @@ Configuration for Git Bash in the Windows Terminal
 
 ### Scripts
 
-**JetBrains Toolbox**
+#### JetBrains Toolbox
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-jetbrains-toolbox | bash
@@ -51,13 +51,13 @@ curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu
 
 This script requires `wget` and `tar`
 
-**PHP**
+#### PHP
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-php | bash
 ```
 
-**Composer**
+#### Composer
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-composer | bash
@@ -65,7 +65,7 @@ curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu
 
 ### Customizations
 
-**Make Gnome titlebar smaller**
+#### Make Gnome titlebar smaller
 
 ```css
 /* Put in $HOME/.config/gtk-3.0/gtk.css */
@@ -84,7 +84,9 @@ headerbar.default-decoration button.titlebutton {
 
 ## Arch Linux
 
-### Add `gnome-terminal` keybinding
+### Customizations
+
+#### Add `gnome-terminal` keybinding
 
 ```bash
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name "'Gnome Terminal'"
