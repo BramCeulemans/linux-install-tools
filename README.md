@@ -41,31 +41,46 @@ Configuration for Git Bash in the Windows Terminal
 
 ## Ubuntu
 
-### Install commands
+### Scripts
 
-- JetBrains Toolbox: 
-  ```
-  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-jetbrains-toolbox | bash
-  ```
-- PHP: 
-  ```
-  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-php | bash
-  ```
-- Composer: 
-  ```
-  curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-composer | bash
-  ```
+**JetBrains Toolbox**
 
-### Dependencies
+```bash
+curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-jetbrains-toolbox | bash
+```
 
-#### JetBrains Toolbox
+This script requires `wget` and `tar`
 
-This script automatically downloads the latest version of JetBrains Toolbox and installs it
+**PHP**
 
-Requirements:
+```bash
+curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-php | bash
+```
 
-- `wget`
-- `tar`
+**Composer**
+
+```bash
+curl -sSL https://raw.githubusercontent.com/bramceulemans/pc-setup/master/ubuntu/install-composer | bash
+```
+
+### Customizations
+
+**Make Gnome titlebar smaller**
+
+```css
+/* Put in $HOME/.config/gtk-3.0/gtk.css */
+headerbar.default-decoration {
+ padding-top: 5px;
+ padding-bottom: 5px;
+ min-height: 0px;
+ font-size: 0.8em;
+}
+
+headerbar.default-decoration button.titlebutton {
+ padding: 0px;
+ min-height: 0px;
+}
+```
 
 ## Arch Linux
 
