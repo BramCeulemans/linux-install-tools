@@ -12,7 +12,7 @@ sudo pacman -S ttf-jetbrains-mono ttf-cascadia-code ttf-ubuntu-font-family ttf-r
 sudo yay -S ttf-meslo nerd-fonts-droid-sans-mono nerd-fonts-cascadia-code
 
 # Desktop Environment
-sudo pacman -S i3-gaps i3blocks i3lock i3status
+sudo pacman -S i3-gaps i3blocks i3lock i3status alacritty
 
 # Customization
 sudo pacman -S feh imagemagick
