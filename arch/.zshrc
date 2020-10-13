@@ -1,3 +1,4 @@
+#!/bin/zsh
 source <(antibody init)
 
 antibody bundle ohmyzsh/ohmyzsh
