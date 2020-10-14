@@ -8,6 +8,8 @@ gaps inner 16
 exec --no-startup-id feh --bg-scale $HOME/pics/background.png
 # Disable title bar
 for_window [class=".*"] border pixel 0
+# Launch Polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh &
 
 set $mod Mod4
 
