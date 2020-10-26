@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": 0,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "terminal.integrated.shell.windows": "C:\\Users\\Bram\\scoop\\apps\\pwsh\\current\\pwsh.exe",
+    "terminal.integrated.shellArgs.windows": ["/nologo"],
+    "terminal.integrated.fontFamily": "Jetbrains Mono"
+}
