@@ -1,3 +1,16 @@
+/* Put in $HOME/.config/gtk-3.0/gtk.css */
+headerbar.default-decoration {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 0px;
+    font-size: 0.8em;
+}
+   
+headerbar.default-decoration button.titlebutton {
+    padding: 0px;
+    min-height: 0px;
+}
+
 VteTerminal, vte-terminal {
     padding: 16px;
 }

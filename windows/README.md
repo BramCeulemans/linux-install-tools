@@ -26,6 +26,13 @@ scoop install 7zip sharex vlc everything nextcloud foobar2000
 scoop install vscode php composer nodejs-lts yarn
 ```
 
+## Git Bash
+
+```bash
+# $HOME/.bashrc
+export PS1="\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[33m\]\w\[\e[m\]\[\e[36m\]\`__git_ps1\`\[\e[m\] "
+```
+
 ## Configuration files
 
 | Description | Location |
