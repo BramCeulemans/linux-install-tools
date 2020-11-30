@@ -112,6 +112,10 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+d"
         }
     ]
 }
