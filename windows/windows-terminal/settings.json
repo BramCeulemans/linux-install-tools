@@ -86,6 +86,10 @@
         // These two lines additionally bind them to Ctrl+C and Ctrl+V.
         // To learn more about selection, visit https://aka.ms/terminal-selection
         {
+            "command": "closePane",
+            "keys": "ctrl+d"
+        },
+        {
             "command": {
                 "action": "copy",
                 "singleLine": false
@@ -112,10 +116,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "closePane",
-            "keys": "ctrl+d"
         }
     ]
 }
