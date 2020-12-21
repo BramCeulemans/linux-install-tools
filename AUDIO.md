@@ -4,8 +4,7 @@
 
 ### Bash
 
-```bash
-#!/
+```shell
 CUESHEET="Nightwish - Decades (CD01).cue"
 FLAC="Nightwish - Decades (CD01).flac"
 metaflac --set-tag-from-file="CUESHEET=${CUESHEET}" --import-cuesheet-from="${CUESHEET}" "${FLAC}"
