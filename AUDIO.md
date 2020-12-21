@@ -13,8 +13,8 @@ metaflac --set-tag-from-file="CUESHEET=${CUESHEET}" --import-cuesheet-from="${CU
 ### Powershell
 
 ```powershell
-$cuesheet ="Nightwish - Decades (CD01).cue"
-$flac ="Nightwish - Decades (CD01).flac"
+$cuesheet = "Nightwish - Decades (CD01).cue"
+$flac = "Nightwish - Decades (CD01).flac"
 metaflac --set-tag-from-file="CUESHEET=${cuesheet}" --import-cuesheet-from="${cuesheet}" "${flac}"
 ```
 
