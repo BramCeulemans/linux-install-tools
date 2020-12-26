@@ -20,7 +20,7 @@ scoop install windows-terminal pwsh oh-my-posh
 scoop install googlechrome firefox
 
 # Install utility programs
-scoop install 7zip sharex vlc everything nextcloud foobar2000
+scoop install 7zip sharex vlc everything nextcloud foobar2000 flac
 
 # Install programming tools
 scoop install vscode php composer nodejs-lts yarn
