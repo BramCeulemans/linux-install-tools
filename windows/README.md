@@ -37,6 +37,6 @@ export PS1="\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[33m
 
 | Description | Location |
 | - | - |
-| PowerShell Core profile (`code $PROFILE`) | [`/win10/pwsh/Microsoft.Powershell_profile.ps1`](https://github.com/bramceulemans/pc-setup/blob/master/win10/pwsh/Microsoft.Powershell_profile.ps1) |
-| Windows Terminal settings | [`/win10/windows-terminal/settings.json`](https://github.com/bramceulemans/pc-setup/blob/master/win10/windows-terminal/settings.json) |
-| VSCode settings | [`/etc/vscode/settings.json`](https://github.com/bramceulemans/pc-setup/blob/master/etc/vscode/settings.json) |
+| PowerShell Core profile (`code $PROFILE`) | [`/windows/pwsh/Microsoft.Powershell_profile.ps1`](/windows/pwsh/Microsoft.Powershell_profile.ps1) |
+| Windows Terminal settings | [`/windows/windows-terminal/settings.json`](/windows/windows-terminal/settings.json) |
+| VSCode settings | [`/etc/vscode/settings.json`](/etc/vscode/settings.json) |
