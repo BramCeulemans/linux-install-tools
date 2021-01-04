@@ -20,7 +20,9 @@
     "profiles": {
         "defaults": {
             // Put settings here that you want to apply to all profiles.
-            "fontFace": "Jetbrains Mono",
+            "fontFace": "CaskaydiaCove NF",
+            "fontSize": 12,
+            "fontWeight": "normal",
             "colorScheme": "Google",
             "padding": "16",
             "antialiasingMode": "cleartype",

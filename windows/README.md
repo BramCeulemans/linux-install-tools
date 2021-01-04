@@ -11,10 +11,11 @@ scoop bucket add nerd-fonts
 scoop install sudo
 
 # Install fonts
-sudo scoop install jetbrains-mono
+sudo scoop install jetbrains-mono CascadiaCode-NF
 
 # Install Windows Terminal and PowerShell Core
-scoop install windows-terminal pwsh oh-my-posh
+scoop install windows-terminal pwsh
+Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
 
 # Install a browser
 scoop install googlechrome firefox

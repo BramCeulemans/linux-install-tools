@@ -14,9 +14,6 @@ function Merge-Cuesheet {
     metaflac --set-tag-from-file="CUESHEET=${Cue}" --import-cuesheet-from="${Cue}" "${Flac}"
 }
 
-Import-Module posh-git
-Import-Module oh-my-posh
-Set-Theme AgnosterPlus
-
+Set-PoshPrompt -Theme ~/.oh-my-posh.omp.json
 Set-Alias -Name src -Value CdSrc
 Set-Alias -Name rij -Value CdRij
