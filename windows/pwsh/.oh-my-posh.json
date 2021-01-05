@@ -20,8 +20,9 @@
                     "leading_diamond": "",
                     "trailing_diamond": "",
                     "properties": {
-                        "prefix": "",
-                        "style": "full"
+                        "folder_separator_icon": "/",
+                        "style": "full",
+                        "prefix": ""
                     }
                 },
                 {
@@ -34,7 +35,12 @@
                     "leading_diamond": "",
                     "trailing_diamond": "",
                     "properties": {
-                        "prefix": ""
+                        "prefix": "",
+                        "branch_icon": "\uE0A0 ",
+                        "branch_identical_icon": "\uF0C9 ",
+                        "branch_ahead_icon": "\uF176 ",
+                        "branch_behind_icon": "\uF175 ",
+                        "branch_gone_icon": "\u2262 "
                     }
                 },
                 {

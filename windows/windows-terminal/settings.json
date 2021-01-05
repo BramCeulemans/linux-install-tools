@@ -16,15 +16,17 @@
     "tabWidthMode": "titleLength",
     "confirmCloseAllTabs": false,
     "snapToGridOnResize": false,
-    "disabledProfileSources": ["Windows.Terminal.Azure"],
+    "disabledProfileSources": [
+        "Windows.Terminal.Azure"
+    ],
     "profiles": {
         "defaults": {
             // Put settings here that you want to apply to all profiles.
             "fontFace": "CaskaydiaCove NF",
-            "fontSize": 12,
+            "fontSize": 13,
             "fontWeight": "normal",
             "colorScheme": "Google",
-            "padding": "16",
+            "padding": "16, 12",
             "antialiasingMode": "cleartype",
             "cursorShape": "underscore",
             "scrollbarState": "visible"
@@ -36,8 +38,7 @@
                 "source": "Windows.Terminal.PowershellCore",
                 "commandline": "\"C:\\Users\\Bram\\scoop\\apps\\pwsh\\current\\pwsh.exe\" /nologo",
                 "suppressApplicationTitle": true,
-                "hidden": false,
-                "cursorShape": "underscore"
+                "hidden": false
             },
             {
                 // Make changes here to the powershell.exe profile.

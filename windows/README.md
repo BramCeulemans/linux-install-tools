@@ -27,6 +27,14 @@ scoop install 7zip sharex vlc everything nextcloud foobar2000 flac
 scoop install vscode php composer nodejs-lts yarn
 ```
 
+## Setup
+
+Run this from /windows
+
+```powershell
+.\setup.ps1
+```
+
 ## Git Bash
 
 ```bash
