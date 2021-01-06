@@ -23,10 +23,10 @@
         "defaults": {
             // Put settings here that you want to apply to all profiles.
             "fontFace": "CaskaydiaCove NF",
-            "fontSize": 13,
+            "fontSize": 12,
             "fontWeight": "normal",
             "colorScheme": "Google",
-            "padding": "16, 12",
+            "padding": "12, 8",
             "antialiasingMode": "cleartype",
             "cursorShape": "underscore",
             "scrollbarState": "visible"
