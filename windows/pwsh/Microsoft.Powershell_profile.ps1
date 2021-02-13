@@ -15,3 +15,4 @@ Set-Alias -Name src -Value CdSrc
 Set-Alias -Name rij -Value CdRij
 
 Set-PoshPrompt -Theme ~/.oh-my-posh.json
+Set-PSReadLineKeyHandler -Key 'Ctrl+d' -Function DeleteCharOrExit
