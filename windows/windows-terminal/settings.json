@@ -29,16 +29,25 @@
             "padding": "12, 8",
             "antialiasingMode": "cleartype",
             "cursorShape": "underscore",
-            "scrollbarState": "visible"
+            "scrollbarState": "visible",
+            "closeOnExit": "always"
         },
         "list": [
             {
+                "commandline": "pwsh.exe /nologo",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
-                "commandline": "\"C:\\Users\\Bram\\scoop\\apps\\pwsh\\current\\pwsh.exe\" /nologo",
-                "suppressApplicationTitle": true,
-                "hidden": false
+                "suppressApplicationTitle": true
+            },
+            {
+                "commandline": "wsl.exe ~ -d Ubuntu",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "tabTitle": "Ubuntu"
             },
             {
                 // Make changes here to the powershell.exe profile.
