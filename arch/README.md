@@ -2,9 +2,8 @@
 
 ```bash
 # YAY
-git clone https://aur.archlinux.org/yay.git
-cd yay
-sudo pacman -S base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
 makepkg -si
 
 # Fonts
